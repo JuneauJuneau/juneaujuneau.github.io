@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Slider</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+
+    <!-- Image Slider -->
+    <section id="slider-container">
+        <!-- slides -->
+        <div class="slide fade" id="slide-0">
+            <img src="./images/img1.png" alt="First Image">
+        </div>
+        <div class="slide fade" id="slide-1">
+            <img src="./images/img2.png" alt="Second Image">
+        </div>
+        <div class="slide fade" id="slide-2">
+            <img src="./images/img3.png" alt="Third  Image">
+        </div>
+        <!-- arrow navigation -->
+        <div id="arrows-wrapper" class="">
+            <!-- arrow left -->
+            <p class="slider-arrow center_y" id="arrow-prev">&#10094</p>
+            <!-- arrow right -->
+            <p class="slider-arrow center_y" id="arrow-next">&#10095</p>
+        </div>
+        <!-- dot navigation -->
+        <div id="dots-wrapper" class="center_x">
+            <div class="dot-navigation"></div>
+            <div class="dot-navigation"></div>
+            <div class="dot-navigation"></div>
+        </div>
+    </section>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
