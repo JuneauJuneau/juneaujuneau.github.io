@@ -1,2 +1,2 @@
 # juneaujuneau.github.io
-image_slider_miuadzaki
+easy-peasy site with only HTML&CSS
